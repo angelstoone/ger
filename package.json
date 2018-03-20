@@ -15,7 +15,7 @@
     "dependencies": {
         "bluebird": "2.9.25",
         "knex": "0.12.6",
-        "pg": "4.3.0",
+        "pg": "6.1.0",
         "lodash": "3.9.3",
         "moment": "2.19.3",
         "coffee-script": "1.9.3"
