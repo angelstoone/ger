@@ -224,7 +224,7 @@ class GER
     actions = configuration.actions
 
     #first a check or two
-    @find_events(namespace, actions: Object.keys(actions), person: person, current_datetime: configuration.current_datetime, size: 100)
+    @find_events(namespace, actions: Object.keys(actions), person: person, current_datetime: configuration.current_datetime, size: 2000)
     .then( (events) =>
 
       return {recommendations: [], confidence: 0} if events.length < configuration.minimum_history_required
